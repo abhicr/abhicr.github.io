@@ -1,0 +1,73 @@
+.container {
+    background-image: url(cris7.jpg);
+}
+
+.iphone {
+    position: relative;
+    background-color: #252525;
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    border: 16px solid rgb(196, 185, 185);
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    text-align: center;
+    
+}
+.iphone::before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #111111;
+    border: 10px;
+    border-radius: 5px;
+}
+
+.iphone::after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #111111;
+    border-radius: 50%;
+}
+
+table{
+    margin:auto;
+}
+
+input{
+    background-image: url(cr7i.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+    background-color: black;
+    font-size: 50px;
+    color: aliceblue;
+    width: 95%;
+    border:  solid black;
+    height: 210px;
+}
+
+button{
+    font-size: 23px;
+    color: antiquewhite;
+    background-color: rgb(58, 57, 57);
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+}
+
+.calculator{
+    display: inline-block;    
+}
